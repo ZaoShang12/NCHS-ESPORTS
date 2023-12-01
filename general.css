@@ -36,7 +36,7 @@ span{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    text-align: center  !important;
+    text-align: center  ;
     font-size: xx-large;
 }
 
@@ -62,11 +62,14 @@ span{
 
 
 /*CLUB INFO START*/
+
 #clubInfo{
+    
     padding-top: 50px;
     
     width: 100%;
 }
+
 #clubInfo h1{
     text-align: center;
     padding-left: 20px;
@@ -76,12 +79,36 @@ span{
     padding-top: 50px;
     height: 300px;
     width: 100%;
+    
+}
+#clubInfo #col2{
+    background-image: linear-gradient(to right,black, red);
+    padding-top: 50px;
+    
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    margin:5px;
+    
+}
+#clubInfo #col2:hover{
+    transition: all ease-in-out 250ms;
+    background-image: radial-gradient(black, red);
+    transform: scale(1.1);
 }
 
 #clubInfo h3{
+    
    color: white;
    text-align: center;
 }
+#clubInfo h4{
+    color: rgb(82, 74, 74);
+    text-align: center;
+ }
 #clubInfo p{
     padding-top: 30px;
    padding-left: 20px;
