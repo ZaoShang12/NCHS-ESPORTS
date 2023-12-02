@@ -86,12 +86,13 @@ span{
     padding-top: 50px;
     
     text-align: center;
-    height: 500px;
-    width: 100%;
+    height: auto;
+    width: auto;
     border-style: solid;
     border-width: 10px;
     border-radius: 5px;
-    margin:5px;
+    margin:50px;
+    
     
 }
 #clubInfo #col2:hover{
@@ -104,6 +105,7 @@ span{
     
    color: white;
    text-align: center;
+   font-family:'Times New Roman', Times, serif;
 }
 #clubInfo h4{
     color: rgb(82, 74, 74);
@@ -115,6 +117,7 @@ span{
    padding-right: 20px;
     color: white;
     text-align: center;
+    
  }
 
 
